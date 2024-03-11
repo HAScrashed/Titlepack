@@ -122,6 +122,11 @@ Void RemoveFromDynamics() {
 	}
 }
 
+//Remove all dynamics from the array
+Void Clear() {
+	Dynamics.clear();
+}
+
 //Force reset all objects on map
 Void ForceResetAll() {
 	for(I, 0, Dynamics.count-1) {
